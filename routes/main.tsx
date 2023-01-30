@@ -14,7 +14,7 @@ const navLinks = [
 
 export default function Main() {
   return (
-    <>
+    <div className="py-16 px-8 my-16 max-w-screen-md mx-auto w-full bg-slate-200">
       <Helmet
         defaultTitle="Example"
         titleTemplate="Example | %s"
@@ -23,9 +23,9 @@ export default function Main() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
-      <ul>
+      <ul className="grid gap-2">
         {navLinks.map((link) => (
-          <li key={link.label}>
+          <li key={link.label} className="border-2">
             <Link to={link.to}>{link.label}</Link>
           </li>
         ))}
@@ -35,6 +35,6 @@ export default function Main() {
           <Outlet />
         </AppErrorBoundary>
       </Suspense>
-    </>
+    </div>
   );
 }

@@ -15,4 +15,4 @@ jobs:
     needs: ci
     uses: udibo/react_app/.github/workflows/deploy.yml@0.1.3
     with:
-      project: udibo-react-app-example
+      project: udibo-react-app-twind

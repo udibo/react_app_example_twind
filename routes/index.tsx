@@ -7,12 +7,15 @@ export default function Index() {
         <title>Home</title>
         <meta
           name="description"
-          content="This is a basic example of a Udibo React App."
+          content="This is a basic example of a Udibo React App using Twind to add Tailwind v3 support."
         />
       </Helmet>
-      <h1>Home</h1>
-      <p>This is a basic example of a Udibo React App.</p>
-      <ul>
+      <h1 className="font-light mt-6">Home</h1>
+      <p className="py-8">
+        This is a basic example of a Udibo React App using Twind to add Tailwind
+        v3 support.
+      </p>
+      <ul className="list-disc grid gap-2">
         <li>
           <a href="https://github.com/udibo/react_app_example">
             GitHub Repository

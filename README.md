@@ -1,9 +1,15 @@
-# Example Udibo React App
+# Example Twind Udibo React App
 
 [![CI](https://github.com/udibo/react_app/workflows/CI/badge.svg)](https://github.com/udibo/react_app/actions?query=workflow%3ACI)
 [![license](https://img.shields.io/github/license/udibo/react_app)](https://github.com/udibo/react_app/blob/main/LICENSE)
 
-A basic example of a [Udibo React App](https://deno.land/x/udibo_react_app).
+A basic example of a [Udibo React App](https://deno.land/x/udibo_react_app)
+using [Twind](https://twind.style/) to add Tailwind v3 support.
+
+To do this in your own project, copy the twind imports from the
+`import_map.json`, add `twind.js` with your twind configuration, import
+`twind.js` into your `app.tsx`, and add a custom `renderToReadableStream` to
+your serve options in `main.ts`.
 
 - [GitHub Repository](https://github.com/udibo/react_app/)
 - [Deno docs](https://deno.land/x/udibo_react_app)
