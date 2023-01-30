@@ -1,4 +1,4 @@
-# Example Twind Udibo React App
+# Twind Example Udibo React App
 
 [![CI/CD](https://github.com/udibo/react_app_example_twind/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/udibo/react_app_example_twind/actions/workflows/main.yml)
 [![license](https://img.shields.io/github/license/udibo/react_app_example_twind)](https://github.com/udibo/react_app_example_twind/blob/main/LICENSE)
