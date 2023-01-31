@@ -17,7 +17,7 @@ export default function Index() {
       </p>
       <ul className="list-disc grid gap-2">
         <li>
-          <a href="https://github.com/udibo/react_app_example">
+          <a href="https://github.com/udibo/react_app_example_twind">
             GitHub Repository
           </a>
         </li>

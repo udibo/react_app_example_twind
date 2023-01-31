@@ -11,9 +11,6 @@ To do this in your own project, copy the twind imports from the
 `twind.js` into your `app.tsx`, and add a custom `renderToReadableStream` to
 your serve options in `main.ts`.
 
-- [GitHub Repository](https://github.com/udibo/react_app/)
-- [Deno docs](https://deno.land/x/udibo_react_app)
-
 ## Deployment
 
 The workflow is configured to run tests for all PRs and to deploy to Deno
