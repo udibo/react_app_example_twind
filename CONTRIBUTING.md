@@ -18,11 +18,16 @@ To run the tests, use `deno task test` or `deno task test-watch`.
 
 To check formatting and run lint, use `deno task check`.
 
-To create a production build and to run the production build, use
-`deno task build` and `deno task run`.
+To create a build and to run the build, use `deno task build` and
+`deno task run`. By default, the application builds and runs in development
+mode. To build and run a production build, set the `APP_ENV` environment
+variable to `production`.
 
 To run the application in development mode with live reloading, use
 `deno task dev`.
+
+When in development, identifiers are not minified and sourcemaps are generated
+and linked.
 
 This repository uses squash merging. If your branch is merged into main, you can
 get your branch back up to date with `deno task git-rebase`. Alternatively, you
