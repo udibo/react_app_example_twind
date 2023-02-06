@@ -3,7 +3,7 @@ import {
   AppState,
   renderToReadableStream,
   serve,
-} from "x/udibo_react_app/app_server.tsx";
+} from "x/udibo_react_app/server.tsx";
 import { Context } from "x/oak/mod.ts";
 import TwindStream from "npm/@twind/with-react/readableStream";
 
